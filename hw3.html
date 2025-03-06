@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <h1 style="color: brown;"> Hello World! </h1>
+    <h3 id = 'main'> Introducing: Me. </h3>
+
+    <button id = 'NB'>Click Me!</button>
+    <script>
+        const navigatebutton = document.getElementById('NB')
+        navigatebutton.addEventListener('click', function(){
+            window.location.href = 'test.html'
+        })
+    </script>
+
+    <p id = 'main'>My name is Bella.</p>
+    <p class = "A">Today is a <i>good</i> day.</p>
+    <p>I will get an A in <b>this class.</b></p>
+
+    <a href="https://www.northeastern.edu">Please check out my University's website!</a>
+
+    <p>To do list
+        <ol class = "A">
+            <li>Talk to the TAs</li>
+            <li>Regrade my quiz</li>
+            <li>Read the paper</li>
+        </ol>
+    </p>
+
+    <img src="https://cdn.greenfieldpuppies.com/wp-content/uploads/2024/12/Twinkle-F1-3-600x600.jpg" alt="Chocolate lab puppy named Twinkle" width = 500>
+
+</body>
+</html>
